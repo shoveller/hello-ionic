@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev:": "vite",
+    "lab": "ionic-lab http://localhost:3000",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test.e2e": "cypress run",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "6.0.0",
+    "@ionic/lab": "^3.2.15",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
